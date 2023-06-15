@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.TourDescriptionActivity"
+    android:background="#102334">
+
+    <TextView
+        android:id="@+id/header_selected_game_infinite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/anton"
+
+        android:text="INFINITE"
+        android:textColor="#EBA297"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/h2_selected_game_infinite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/alumni_regular"
+        android:paddingBottom="20dp"
+        android:text="THE MISSING PAINTING"
+        android:textColor="#EBA297"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@id/magnifyingGlassPic"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/game_floor_infinite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/alumni_medium"
+        android:paddingBottom="20dp"
+        android:text="Floor 4"
+        android:textColor="#FFFFFF  "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/magnifyingGlassPic"
+        app:layout_constraintEnd_toEndOf="@id/magnifyingGlassPic" />
+
+    <ImageView
+        android:id="@+id/magnifyingGlassPic"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="180dp"
+
+
+        android:contentDescription="@string/White_logo"
+        android:src="@drawable/infinite"
+
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description_selected_game_infinite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alumni_medium"
+        android:padding="20dp"
+        android:text="One of the biggest mysteries in the world of art is yet to be solved. You will join forces with our detective, by interpreting clues and hints. Along the way you’ll be unraveling stories from Munch’s life while crossing paths with notorious art pieces."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="425dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/magnifyingGlassPic"
+        />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EBA297"
+        app:backgroundTint="@null"
+
+        android:fontFamily="@font/anton"
+        android:text="START"
+
+        android:textColor="#102334"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="633dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description_selected_game_infinite"
+        />
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="670dp"
+
+
+        android:contentDescription="@string/White_logo"
+        android:src="@drawable/back"
+
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

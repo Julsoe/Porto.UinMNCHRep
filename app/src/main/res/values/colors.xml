@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#102334</color>
+    <color name="blue_light">#243545</color>
+    <color name="blue_dark">#081622</color>
+    <color name="blue_link">#3C9AF1</color>
+    <color name="pink">#EBA297</color>
+    <color name="red">#FE390F</color>
+    <color name="red_dark">#8D2F21</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#D9D9D9</color>
+    <color name="gray_dark">#878787</color>
+    <color name="transparent">#000000</color>
+    <color name="speech_detective_bg">#4C5A66</color>
+    <color name="speech_player_bg">#9DA2A7</color>
+
+
+    <color name="purple_200">#878787</color>
+    <color name="purple_500">#878787</color>
+    <color name="purple_700">#878787</color>
+    <color name="teal_200">#878787</color>
+    <color name="teal_700">#878787</color>
+    <color name="background_secondary">#102334</color>
+
+
+    <color name="text_primary">#FFFFFF</color>
+</resources>

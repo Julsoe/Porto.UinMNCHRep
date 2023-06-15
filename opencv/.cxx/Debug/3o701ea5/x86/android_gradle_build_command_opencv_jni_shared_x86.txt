@@ -1,0 +1,7 @@
+Executable : /Users/ida/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/ida/Desktop/MUnch/opencv/.cxx/Debug/3o701ea5/x86
+opencv_jni_shared
+jvmArgs : 
+

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".Activities.DetectiveActivity" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/btnRewards"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/rewards"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.958"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:contentDescription="@string/description_rewards" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/txt_detektiven"
+            android:fontFamily="@font/alumni_extra_bold"
+            android:textColor="@color/pink"
+            android:textSize="70sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05"
+            app:layout_constraintHorizontal_bias="0.277" />
+
+        <TextView
+            android:layout_width="244dp"
+            android:layout_height="43dp"
+
+            android:text="@string/game_name"
+            android:fontFamily="@font/alumni_regular"
+            android:textColor="@color/pink"
+            android:textSize="30sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.159"
+            app:layout_constraintHorizontal_bias="0.299" />
+
+        <TextView
+            android:layout_width="69dp"
+            android:layout_height="35dp"
+
+            android:text="@string/floor"
+            android:fontFamily="@font/alumni_semi_bold"
+            android:textColor="@color/gray"
+            android:textSize="25sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.155"
+            app:layout_constraintHorizontal_bias="0.888" />
+
+        <TextView
+            android:layout_width="356dp"
+            android:layout_height="263dp"
+            android:background="@drawable/speech_detective"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.478"
+            app:layout_constraintHorizontal_bias="0.709" />
+
+        <TextView
+            android:layout_width="299dp"
+            android:layout_height="213dp"
+
+            android:text="@string/speech_detektiven1"
+            android:fontFamily="@font/alumni_regular"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.642"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.486" />
+
+        <TextView
+            android:layout_width="264dp"
+            android:layout_height="95dp"
+
+            android:fontFamily="@font/alumni_regular"
+            android:text="@string/speech_detektiven2"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.455" />
+
+        <TextView
+            android:layout_width="302dp"
+            android:layout_height="110dp"
+
+            android:fontFamily="@font/alumni_regular"
+            android:text="@string/speech_detektiven3"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.669"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.636" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="20dp"
+
+            android:layout_marginTop="200dp"
+            android:src="@drawable/detective"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_pink"
+            android:fontFamily="@font/alumni_extra_bold"
+
+            android:hint="@string/txt_button_neste"
+            android:textColorHint="@color/blue"
+            android:textSize="25sp"
+            app:backgroundTint="@null"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.93"
+            app:layout_constraintWidth_percent="0.8" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:padding="20dp"
+    tools:context=".TaskActivity">
+
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="47dp"
+        android:layout_height="42dp"
+        android:src="@drawable/user_icon"
+        android:text="PROFILE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/anton"
+        android:textAllCaps="true"
+        android:textColor="@color/pink"
+        android:textSize="64dp"
+        app:layout_constraintBottom_toTopOf="@id/tvTaskSubtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTaskSubtitle"
+        android:textAllCaps="true"
+        android:textSize="34dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alumni_sans"
+        android:textColor="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/tvTaskContent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTaskTitle"
+        />
+
+    <!--
+        <ImageView
+            android:id="@+id/ivCamera"
+            android:layout_width="135dp"
+            android:layout_height="105dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTaskContent"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+    -->
+    <TextView
+        android:id="@+id/tvTaskContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alumni_sans"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/ivCamera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTaskSubtitle" />
+
+    <ImageView
+        android:id="@+id/ivPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="702dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <ImageView
+        android:id="@+id/ivCamera"
+        android:layout_width="91dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/camera_icon"
+        app:layout_constraintTop_toBottomOf="@id/tvTaskContent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivStoredImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="573dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnRewards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="REWARDS"
+        app:layout_constraintTop_toBottomOf="@+id/ivCamera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <Button
+        android:id="@+id/btnTours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="TOURS"
+        app:layout_constraintTop_toBottomOf="@+id/btnRewards"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

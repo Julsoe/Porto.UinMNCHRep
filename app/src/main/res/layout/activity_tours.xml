@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#102334"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    tools:context=".Activities.ToursActivity">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:gravity="right">
+
+        <ImageView
+            android:id="@+id/profile_page"
+            android:layout_width="40dp"
+            android:layout_height="43dp"
+            android:contentDescription="Profile Button"
+            android:src="@drawable/profile" />
+
+        <ImageView
+            android:id="@+id/rewards_page"
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:contentDescription="reward"
+            android:src="@drawable/rewards" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/header_select_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/anton"
+        android:text="SELECT GAME"
+        android:textColor="#EBA297"
+        android:textSize="45sp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginStart="10dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/box_layout_infinite"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="#1AD9D9D9"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                >
+
+                <TextView
+                    android:id="@+id/title_game_infinite"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/alumni_medium"
+                    android:text="Infinite"
+                    android:textColor="#FFFFFF"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/game_description_infinite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_game_infinite"
+                    android:fontFamily="@font/alumni_regular"
+                    android:text="One of the biggest mysteries in&#10;the world of art is yet to be solved."
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/game_counter_infinite"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/alumni_medium"
+                    android:text="0/6"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    />
+            </RelativeLayout>
+            <!-- MONUMENTAL LAYOUT -->
+            <RelativeLayout
+                android:id="@+id/box_layout_monumental"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="#1AD9D9D9"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/title_game_monumental"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/alumni_medium"
+                    android:text="Monumental"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="35sp" />
+
+                <TextView
+                    android:id="@+id/game_description_monumental"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_game_monumental"
+                    android:fontFamily="@font/alumni_regular"
+                    android:text="Discover how art and emotions&#10;unites while exploring your creativity."
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/game_counter_monumental"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="30dp"
+
+                    android:fontFamily="@font/alumni_medium"
+                    android:text="0/10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"/>
+            </RelativeLayout>
+            <!-- SHADOWS BOX GAME -->
+            <RelativeLayout
+                android:id="@+id/box_layout_shadows"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="#1AD9D9D9"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                >
+
+                <TextView
+                    android:id="@+id/title_game_shadows"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/alumni_medium"
+                    android:text="Shadows"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="35sp" />
+
+                <TextView
+                    android:id="@+id/game_description_shadows"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_game_shadows"
+                    android:fontFamily="@font/alumni_regular"
+                    android:text="Search for the smallest steps you&#10;can find to see a whole nre world.."
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/game_counter_shadows"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/alumni_medium"
+                    android:text="0/10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"/>
+            </RelativeLayout>
+            <!-- UP CLOSE GAME -->
+            <RelativeLayout
+                android:id="@+id/box_layout_up_close"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="#1AD9D9D9"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/title_game_up_close"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/alumni_medium"
+                    android:text="Up Close"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="35sp" />
+
+                <TextView
+                    android:id="@+id/game_description_up_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_game_up_close"
+                    android:fontFamily="@font/alumni_regular"
+                    android:text="Enhance your creativity&#10;with music."
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/game_counter_up_close"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/alumni_medium"
+                    android:text="0/10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"/>
+            </RelativeLayout>
+            <!-- CHAMBER OF CHAOS BOX SPILL
+             -->
+            <RelativeLayout
+                android:id="@+id/box_layout_chamber_of_chaos"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="#1AD9D9D9"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/title_game_chamber_of_chaos"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/alumni_medium"
+                    android:text="Chamber Of Chaos"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="35sp" />
+
+                <TextView
+                    android:id="@+id/game_description_chamber_of_chaos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_game_chamber_of_chaos"
+                    android:fontFamily="@font/alumni_regular"
+                    android:text="Expolore art with&#10;all your senses."
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/game_counter_chamber_of_chaos"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/alumni_medium"
+                    android:text="0/10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

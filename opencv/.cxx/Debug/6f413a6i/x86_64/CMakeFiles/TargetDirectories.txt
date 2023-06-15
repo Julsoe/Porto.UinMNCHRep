@@ -1,0 +1,3 @@
+/Users/julsoe/Desktop/UinMNCH/opencv/.cxx/Debug/6f413a6i/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/julsoe/Desktop/UinMNCH/opencv/.cxx/Debug/6f413a6i/x86_64/CMakeFiles/edit_cache.dir
+/Users/julsoe/Desktop/UinMNCH/opencv/.cxx/Debug/6f413a6i/x86_64/CMakeFiles/opencv_jni_shared.dir

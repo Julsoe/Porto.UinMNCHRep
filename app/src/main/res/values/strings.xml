@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="app_name">UinMunch</string> -->
+    <string name="terms">By pressing Login, you accept our terms of service. Learn more about how we process your data in our privacy policy and cookie policy.</string>
+    <string name="guest_info">Progress can be saved later by creating an user or login with existing user.</string>
+    <string name="eddiemunch">eddiemunch</string>
+    <string name="example_outlook_com">example@outlook.com</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="passwordDisplay">Password:</string>
+    <string name="ageDisplay">Age:</string>
+    <string name="profilepicture">profilePicture</string>
+    <string name="displayed_profile_picture_tap_to_change_picture">Displayed profile picture. Tap to change picture</string>
+    <string name="U_In_Munch_Displayed_Logo_In_White" />
+    <string name="Your_profile_picture_Tap_to_set_or_edit_image">Your profile picture. Tap top view, set or change picture.</string>
+    <string name="Edit_image">Your profile picture. Tap to view, set or change picture.</string>
+    <string name="White_logo">Logo \"U In Munch\" in white.</string>
+    <string name="app_name">DropdownMenu</string>
+    <string name="select">Select Item</string>
+    <string name="age">Age:</string>
+    <string name="_22">22</string>
+    <string name="edvard_munch_no">edvard@munch.no</string>
+    <string name="my_rewards">My Rewards</string>
+    <string name="rectangle_with_dotted_lines">Rectangle with Dotted Lines</string>
+    <string name="you_got_a_free_coffee">You got a free Coffee!</string>
+    <string name="show_coupon_at_munch_deli_cafe"><![CDATA[Show Coupon at Munch deli & Cafe]]></string>
+    <string name="free_coffee_coupon">You got a free Coffee!</string>
+    <string name="coupon_free_coffee"><![CDATA[You got a Free Coffee!\nShow coupon at\nMUNCH deli & café]]></string>
+    <string name="locked_monumental_coupon">LOCKED \n Complete the Monumental Tour</string>
+    <string name="info_more_rewards">Look out for more Rewards in the Future!</string>
+    <string name="locked_chaos">LOCKED\nComplete Chaos Tour</string>
+    <string name="locked_chaos_tour" />
+    <string name="locked_chamber_of_chaos" />
+    <string name="locked_up_close_tour">LOCKED\nComplete the Up Close Tour</string>
+    <string name="shadows_tour_coupon">LOCKED\nComplete the Shadows Tour</string>
+    <string name="infinite_tour_coupon">LOCKED\nComplete the Infinite Tour</string>
+    // Subtitle for game.
+    <string name="game_name">THE MISSING PAINTING</string>
+
+    // Headings for tasks.
+    <string name="txt_detektiven">DETEKTIVEN</string>
+    <string name="txt_logikk">LOGIKK</string>
+    <string name="txt_tolke">TOLKE</string>
+    <string name="txt_koden">KODEN</string>
+    <string name="txt_observere">OBSERVERE</string>
+    <string name="txt_gaaten">GÅTEN</string>
+    <string name="txt_avsloeringen">AVSLØRINGEN</string>
+
+    // Floor for game
+    <string name="floor">Floor 4</string>
+
+    // Detective speeches
+    <string name="speech_detektiven1">Hei! Mitt navn er MunchGyver.</string>
+    <string name="speech_detektiven2">Jeg har jobbet på en helt spesiell sak over lang tid. En av Munch’s 4 versjoner av Skrik er borte, og har ikke blitt sett på mange tiår.</string>
+    <string name="speech_detektiven3">Underveis i etterforskningen min har jeg samlet en del ledetråder, men jeg har aldri klart å se en sammenheng mellom dem- kan du hjelpe meg?</string>
+    <!--
+    <string name="speech_detektiven2">Jeg har lenge jobbet med et mysterie. En av Munch’s 4 versjoner av Skrik har ikke blitt sett på mange tiår.</string>
+    <string name="speech_detektiven3">Underveis i etterforskningen har jeg samlet flere ledetråder. Jeg klarer ikke å se sammenhengen, og trenger derfor din hjelp!</string>
+    -->
+
+    <string name="speech_logikk1">La oss starte med disse figurene jeg har samlet over tid. Jeg tror de utgjør et ord som kan lede oss videre.</string>
+    <string name="speech_logikk2">Jeg har ikke klart å knekke mønsteret enda- kanskje hver figur representerer et bilde?</string>
+    <!--
+    <string name="speech_logikk1">Disse figurene dukker stadig opp. Jeg tror hver figur representerer et bilde og utgjør et ord. som kan lede oss videre.</string>
+    <string name="speech_logikk2">Kan du hjelpe meg å knekke mønsteret som kan lede oss videre?</string>
+    -->
+
+    <string name="speech_tolke1">Aha! Jeg tror faktisk bildet vi leter etter sist ble sett før andre verdenskrig. Visste du forresten at Munch var en av mange kunstnere som fikk kunsten sin erklært som “degenerert” under 2. verdenskrig?</string>
+    <string name="speech_tolke2">Nazistene beslagla hundretusener av kunstverk under krigen som de selv mente var upassende. Et eksempel på dette er et bilde som mange mente var i strid mot datidens kvinnesyn. Kan du finne et bilde som representerer en kvinne som man på den tiden mente ikke var “Like a virgin”?</string>
+    <!--
+    <string name="speech_tolke1">Hmm.. Jeg tror det savnede bildet ble sist sett før 2.verdenskrig. Under krigen beslagla nazistene kunstverk som de mente var upassende.</string>
+    <string name="speech_tolke2">Ett av de var et bilde som mange mente var i strid mot datidens kvinnesyn. Kan du finne bildet som representerer en kvinne som på den tiden ikke var “Like a virgin”?</string>
+    -->
+
+    <string name="speech_koden1">Det er riktig!</string>
+    <string name="speech_koden2">Denne lappen fant jeg i nærheten av der Munch bodde i sine siste dager. Det var et av de første ledetrådene i etterforskningen min. Som du kanskje vet, var det vanlig å kryptere meldinger under 2. verdenskrig. Kan du hjelpe meg å knekke koden?</string>
+    <!--
+    <string name="speech_koden1">Nå er du på sporet! Denne lappen ble funnet i nærheten av der Munch bodde sine siste dager.</string>
+    <string name="speech_koden2">Som du kanskje vet, var det vanlig å kryptere meldinger under krigen. Kan du hjelpe meg å knekke koden?</string>
+    -->
+
+    <string name="speech_observere1">Aha! Kanskje det er noen som vil at vi skal finne det?</string>
+    <string name="speech_observere2">La oss ta en titt på Skrik sin bakgrunnshistorie, kan du se noe i bildet som du også kan se utenfor?</string>
+    <!--
+    <string name="speech_observere1">Hmm.. Det virker som noen vil at vi skal finne ut av dette.</string>
+    <string name="speech_observere2">La oss skikke på Skrik sin bakgrunnshistorie, kan du se noe i bildet som du også kan se utenfor?</string>
+    -->
+
+    <string name="speech_gaaten1">Det stemmer! Det antas at inspirasjonen til Skrik kom under en kveldstur han gikk ved Oslofjorden i selskap av gode venner, men man er fortsatt ikke helt sikker på hvem disse var. Jeg vet at han har malt et lignende bilde som kanskje kan hjelpe oss, kan du hjelpe meg å finne hvilket bilde jeg tenker på? Jeg har bare denne koden som ledetråd.</string>
+    <!--
+    <string name="speech_gaaten1">Inspirasjonen til Skrik fikk Munch under en kveldstur med gode venner ved Oslofjorden. Hvem de var er usikkert, men jeg vet at han har malt et lignende bilde. Kan du hjelpe meg å finne hvilket bilde jeg tenker på? Jeg har bare denne koden som ledetråd.</string>
+    <string name="speech_gaaten1">Kan du hjelpe meg å finne hvilket bilde jeg tenker på? Jeg har bare denne koden som ledetråd.</string>
+    -->
+
+    <string name="speech_avsloeringen1">Ah, det var akkurat det bildet jeg tenkte på! Damene som er avbildet var konene til noen av Munchs gode venner.</string>
+    <string name="speech_avsloeringen2">Apropos gode venner - når du sier det så husker jeg at en av Munchs venner også var hans nabo, men han har jeg faktisk ikke sett siden før krigen. Det eneste jeg husker er at han bodde i et rødt hus, da jeg har sett det i et av Munchs malerier. Kan du hjelpe meg å finne det, kanskje han vet noe?</string>
+
+    <!--
+    <string name="speech_avsloeringen1">Så klart, det er jo bildet av konene til noen av Munchs gode venner!</string>
+    <string name="speech_avsloeringen2">Apropos gode venner - En av de var hans nabo, og jeg har ikke sett han siden før krigen. Han bodde i et rødt hus som ogå var i et av Munchs malerier. Kan du hjelpe meg å finne det, kanskje han vet noe?</string>
+    -->
+
+    <string name="speech_avslutningen1">Takk for hjelpen! Mysteriet du har hjulpet detektiven å løse er basert på den sanne historien om hva som skjedde med det fjerde og siste Skrik bildet under andre verdenskrig.</string>
+    <!--
+<string name="speech_avslutningen1">Takk for at du fant det savnede bildet! Mysteriet du har hjulpet detektiven å løse er basert på den sanne historien om hva som skjedde med det 4. og siste Skrik-bildet under 2.verdenskrig.</string>
+    -->
+
+    <string name="speech_avslutningen2">Historien starter med Munchs gamle venn Curt Glaser, en tysk-jødisk kunstsamler. I 1933 blir Glaser forfulgt av nazistene i Tyskland, og selger dermed sin kunstsamling.</string>
+    <string name="speech_avslutningen22">Thomas Olsen som var nabo og venn av Munch, eide rundt 30 av hans verker. Olsen fryktet at Tyskland skulle invadere Norge og bestemte seg for å gjemme bildene i en låve i skogen. Blant disse lå en versjon av Skrik, som tidligere var eid av Glaser.</string>
+    <!--
+    <string name="speech_avslutningen2">Historien starter med Munchs gamle venn Curt Glaser, en tysk-jødisk kunstsamler. I 1933 blir Glaser forfulgt av nazistene i Tyskland, og selger dermed kunstsamlingen sin.</string>
+    <string name="speech_avslutningen22">Thomas Olsen som var nabo og venn av Munch, eide rundt 30 av hans verker. Olsen fryktet at Tyskland skulle invadere Norge og bestemte seg for å gjemme bildene i en låve i skogen. Blant disse lå en versjon av Skrik, som Glaser tidligere eide.</string>
+    -->
+
+
+    <string name="speech_avslutningen3">I 1937 ble Munchs bilder fordømt av Hitler som “degenerert kunst”.</string>
+    <string name="speech_avslutningen33">Thomas Olsen skjønte tidlig hva som ville skje hvis nazistene fikk tak i Munchs kunst. Takket være Olsens’s handlinger, lå bildene trygt på gården gjennom hele krigen.</string>
+    <!--
+    <string name="speech_avslutningen3">Hitler fordømte Munch's bilder og degenererte de i 1937.</string>
+    <string name="speech_avslutningen33">Olsen skjønte hva som ville skje hvis nazistene fikk tak i Munchs kunst, og gjemte bildene på gården. Takket være han, så lå de trygt gjennom krigen.</string>
+    -->
+
+    <string name="speech_avslutningen4">Skrik forble urørt, og ble i 2012 solgt for 689 millioner kroner. Pengene fra salget ble delt mellom Olsen-familien og arvingene til Curt Glaser - som i sin tid ble tvunget til å selge maleriet.</string>
+
+
+    // Button hint
+    <string name="txt_button_neste">NESTE</string>
+    <string name="txt_button_send">SEND</string>
+    <string name="txt_button_avsloer">AVSLØR</string>
+
+    // User input field hint
+    <string name="txt_input">Ditt svar...</string>
+    <string name="letter_input">..</string>
+    <string name="letter_input_kiss">Kiss input hint</string>
+    <string name="letter_input_cottage">Red cottage input hint</string>
+    <string name="letter_input_beach">Beach input hint</string>
+    <string name="letter_input_horse">Horse input hint</string>
+
+
+    // Content description
+    <string name="description_rewards">Rewards icon</string>
+    <string name="description_answer_input">Answer input</string>
+    <string name="description_code_task">Code task paper</string>
+    <string name="txt_button_avslutt">AVSLUTT</string>
+
+    <string name="h2_missing_painting">THE MISSING PAINTING</string>
+
+    <!--
+    <string name=""></string>
+    -->
+</resources>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Activities.RewardActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- LOGO -->
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="350dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp"
+
+                android:contentDescription="@string/White_logo"
+                android:src="@drawable/logo_white"
+
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TITTEL REWARDS  -->
+            <TextView
+                android:id="@+id/title_Rewards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="75dp"
+
+
+
+                android:text="@string/my_rewards"
+                android:textColor="#D9D9D9"
+                android:textSize="25dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="309dp"
+                android:fontFamily="@font/anton" />
+
+            <!-- LÅST MONUMENTAL -->
+            <TextView
+                android:id="@+id/free_coffee_coupon"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_with_dotted_lines"
+                android:gravity="center"
+
+                android:text="@string/infinite_tour_coupon"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:fontFamily="@font/alumni_sans" />
+
+<!--
+            <EditText
+                android:id="@+id/coupon_coffee_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="text"
+                android:fontFamily="@font/AlumniSans"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:text="Show coupon at MUNCH deli & café " />
+                -->
+
+            <!-- LÅST MONUMENTAL -->
+
+            <!-- LÅST MONUMENTAL -->
+
+            <TextView
+                android:id="@+id/locked_monumental"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_with_dotted_lines"
+                android:fontFamily="@font/alumni_sans"
+
+                android:gravity="center"
+                android:text="@string/locked_monumental_coupon"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/locked_shadows"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_with_dotted_lines"
+                android:gravity="center"
+
+                android:text="@string/shadows_tour_coupon"
+                android:fontFamily="@font/alumni_sans"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <!-- LÅST UP CLOSE -->
+
+            <TextView
+                android:id="@+id/locked_up_close"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_with_dotted_lines"
+                android:gravity="center"
+
+                android:text="@string/locked_up_close_tour"
+                android:fontFamily="@font/alumni_sans"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <!-- LÅST CHAMBER OF CHAOS-->
+            <TextView
+                android:id="@+id/locked_chamber_of_chaos"
+                android:layout_width="199dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_with_dotted_lines"
+                android:fontFamily="@font/alumni_sans"
+
+                android:gravity="center"
+                android:text="LOCKED&#10;Complete the&#10;Chamber of Chaos Tour"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- INFO MER REWARDS -->
+            <TextView
+                android:id="@+id/info_more_rewards"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+
+                android:text="@string/info_more_rewards"
+                android:fontFamily="@font/anton"
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
